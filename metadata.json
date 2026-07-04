@@ -1,0 +1,6 @@
+{
+  "name": "AnglesTouch Events",
+  "description": "Sophisticated portfolio website for AnglesTouch Events, a premier event management company specializing in Product Launches, Luxury Weddings, Engagements, and celebratory events.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
