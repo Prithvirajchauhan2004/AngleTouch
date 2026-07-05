@@ -88,16 +88,6 @@ export default function Footer({ onNavClick, onAdminToggle, showAdmin }: FooterP
 
           <div className="flex items-center gap-6">
             {/* Quick trigger to open inquiry desk */}
-            <button
-              onClick={onAdminToggle}
-              className={`flex items-center gap-1.5 transition-colors cursor-pointer font-sans text-[8px] uppercase tracking-[0.2em] font-bold ${
-                showAdmin ? 'text-white' : 'text-slate-400 hover:text-white'
-              }`}
-            >
-              <Database size={11} />
-              <span>Inquiry Desk Admin View</span>
-            </button>
-            
             <span className="flex items-center gap-1 font-serif italic">
               <Sparkles size={11} className="text-editorial-slate" />
               <span>Refined Event Geometry</span>
