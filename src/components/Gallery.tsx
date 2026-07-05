@@ -12,7 +12,7 @@ export default function Gallery({ onInquireAboutCategory }: GalleryProps) {
   const [selectedItem, setSelectedItem] = useState<GalleryItem | null>(null);
 
   // Available categories to filter by
-  const categories = ['All', 'Product Launch Events', 'Luxury Wedding Planner', 'Engagements', 'Anniversaries'];
+  const categories = ['All', 'Product Launch Events', 'Luxury Wedding Planner', 'Engagements', 'Birthday Celebrations'];
 
   // Filter the items list
   const filteredItems = activeFilter === 'All'

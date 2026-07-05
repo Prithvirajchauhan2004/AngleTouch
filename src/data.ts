@@ -4,6 +4,20 @@ import engagementImage from '../assets/Image/Engagement.jpeg';
 import birthdayImage from '../assets/Image/Birthday.jpeg';
 import anniversaryImage from '../assets/Image/Anniversary.jpeg';
 import founderImage from '../assets/Image/founder.jpeg';
+import productLaunchImage1 from '../assets/galley/product launch/1.jpg';
+import productLaunchImage2 from '../assets/galley/product launch/2.jpg';
+import productLaunchImage3 from '../assets/galley/product launch/3.jpg';
+import productLaunchImage4 from '../assets/galley/product launch/4.jpg';
+import W1 from '../assets/galley/wedding/1.jpg';
+import W2 from '../assets/galley/wedding/2.jpg';
+import W3 from '../assets/galley/wedding/3.jpg';
+import W4 from '../assets/galley/wedding/4.jpg';
+import W5 from '../assets/galley/wedding/5.jpg';
+import E1 from '../assets/galley/Engament/1.jpg';
+import E2 from '../assets/galley/Engament/2.jpg';
+import B1 from '../assets/galley/birthday/1.jpg';
+import B2 from '../assets/galley/birthday/2.jpg';
+
 
 export const SERVICES_DATA: ServiceItem[] = [
   {
@@ -17,7 +31,7 @@ export const SERVICES_DATA: ServiceItem[] = [
       'Immersive Brand Experience Zones & Interactive Displays',
       'Custom Lighting Scenes Aligned with Corporate Brand Identity'
     ],
-    image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80',
+    image: 'https://imageunsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80',
     priceRange: 'Enterprise Custom Pricing'
   },
   {
@@ -81,59 +95,69 @@ export const SERVICES_DATA: ServiceItem[] = [
 export const GALLERY_DATA: GalleryItem[] = [
   {
     id: 'g1',
-    title: 'Minimalist Corporate Keynote',
+    title: 'Product Launch Event - TechCorp 2023',
     category: 'Product Launch Events',
-    image: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=800&q=80',
-    description: 'Sleek dark staging under dramatic linear LEDs for a modern electric vehicle launch.'
+    image: productLaunchImage1,
   },
   {
     id: 'g2',
-    title: 'The Grand Pavilion Wedding',
-    category: 'Luxury Wedding Planner',
-    image: 'https://images.unsplash.com/photo-1478812954026-9c750f0e89fc?auto=format&fit=crop&w=800&q=80',
-    description: 'Draped ivory silks, massive floral installations, and delicate warm pendant lights.'
+    title: 'Keynote Session',
+    category: 'Product Launch Events',
+    image: productLaunchImage2,
   },
   {
     id: 'g3',
-    title: 'Intimate Candlelit Dinner',
-    category: 'Anniversaries',
-    image: 'https://images.unsplash.com/photo-1543007630-9710e4a00a20?auto=format&fit=crop&w=800&q=80',
-    description: 'A glowing anniversary table featuring hundreds of wax candles on deep navy velvet overlays.'
+    title: '',
+    category: 'Luxury Wedding Planner',
+    image: W1,
   },
   {
     id: 'g4',
-    title: 'Glass House Ring Ceremony',
-    category: 'Engagements',
-    image: 'https://images.unsplash.com/photo-1519225495810-7512c696505a?auto=format&fit=crop&w=800&q=80',
-    description: 'Modern botanical glasshouse design filled with cascading hanging orchids and clean gold chairs.'
+    title: '',
+    category: 'Luxury Wedding Planner',
+    image: W2,
   },
   {
     id: 'g5',
-    title: 'Technological Showcase Dome',
-    category: 'Product Launch Events',
-    image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80',
-    description: 'A futuristic launch featuring custom holographic projectors and circular audience pods.'
+    title: '',
+    category: 'Luxury Wedding Planner',
+    image: W3,
   },
   {
     id: 'g6',
-    title: 'Sophisticated Bachelor Soirée',
-    category: 'Birthday/Bachelor Party',
-    image: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80',
-    description: 'A sleek modern penthouse bachelor dinner with cocktail mixologists and live ambient jazz.'
+    title: '',
+    category: 'Luxury Wedding Planner',
+    image: W4,
   },
   {
     id: 'g7',
-    title: 'White Sands Lakeside Vows',
+    title: '',
     category: 'Luxury Wedding Planner',
-    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?auto=format&fit=crop&w=800&q=80',
-    description: 'A striking minimalist lakeside ceremony outlined by geometric floral pillars and pristine white aisles.'
+    image: W5,
   },
   {
     id: 'g8',
-    title: 'The Golden Milestone Banquet',
-    category: 'Anniversaries',
-    image: 'https://images.unsplash.com/photo-1502635670423-68d5431b9d5a?auto=format&fit=crop&w=800&q=80',
-    description: '50th-anniversary dinner framed by bespoke brass accents, calligraphed menus, and elegant glassware.'
+    title: '',
+    category: 'Engagements',
+    image: E1,
+  },
+  {
+    id: '9',
+    title: '',
+    category: 'Engagements',
+    image: E2,
+  },
+  {
+    id: 'g10',
+    title: '',
+    category: 'Birthday Celebrations',
+    image: B1,
+  },
+  {
+    id: 'g11',
+    title: '',
+    category: 'Birthday Celebrations',
+    image: B2,
   }
 ];
 
