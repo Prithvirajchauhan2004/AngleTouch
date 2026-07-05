@@ -165,7 +165,6 @@ export const FOUNDER_DATA = {
   name: 'Anurag Tomar',
   role: 'Founder & Managing Director',
   bio1: 'With over a 5 years of experience orchestrating high-concept corporate activations, grand-scale marriages, and bespoke private events, Anurag Tomar founded AngelsTouch Events with a singular, unyielding vision: to elevate event production into an art form.',
-  bio2: 'Under his leadership, AngelsTouch has grown from an elite boutique design house to an award-winning full-service management firm, trusted by fortune 500 brands and discerning individuals alike. He personally oversees structural planning, design rhythm, and vendor alignments for every major commission, ensuring that the AngelsTouch stamp of luxury and precision is felt in every touchpoint.',
   quote: '"We do not merely coordinate schedules or construct backdrops; we sculpt unforgettable, immersive experiences that reside forever in memory. Every detail, from the acoustics of a room to the geometry of the tablecloths, is selected to evoke emotion."',
   image: founderImage
 };
