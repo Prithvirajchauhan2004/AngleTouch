@@ -6,8 +6,6 @@ import anniversaryImage from '../assets/Image/Anniversary.jpeg';
 import founderImage from '../assets/Image/founder.jpeg';
 import productLaunchImage1 from '../assets/galley/product launch/1.jpg';
 import productLaunchImage2 from '../assets/galley/product launch/2.jpg';
-import productLaunchImage3 from '../assets/galley/product launch/3.jpg';
-import productLaunchImage4 from '../assets/galley/product launch/4.jpg';
 import W1 from '../assets/galley/wedding/1.jpg';
 import W2 from '../assets/galley/wedding/2.jpg';
 import W3 from '../assets/galley/wedding/3.jpg';
